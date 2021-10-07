@@ -15,7 +15,7 @@ public class D1 {
         if(name.equalsIgnoreCase("Exit")){
             break;
         }
-        System.out.println("Hejdå,du matade in totalt"+ antalInMatadeNamn+"stycken ord");
+        System.out.println("Hejdå,du matade in totalt "+ antalInMatadeNamn+" stycken ord");
 
 
     }

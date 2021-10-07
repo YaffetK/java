@@ -33,7 +33,6 @@ public class C2 {
                     i--;
                 }
 
-
             }
         }
     }

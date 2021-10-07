@@ -7,12 +7,20 @@ public final class App {
     private App() {
     }
 
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
+    
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        
+        var lab1 = new D1();
+        lab1.run();
+
+        var lab2=new D2();
+        lab2.run();
+
+        var lab3=new C3();
+        lab3.spel();
+
+        var lab4 = new D4();
+        lab4.ordräknare();
+
+
     }
 }
