@@ -9,17 +9,12 @@ public final class App {
 
     
     public static void main(String[] args) {
-        var lab1 = new D1();
-        lab1.run();
 
-        var lab2=new D2();
-        lab2.run();
+        var lab1 = new B1();
+        lab1.execute();
 
-        var lab3=new C3();
-        lab3.spel();
-
-        var lab4 = new D4();
-        lab4.ordräknare();
+        var lab2=new B2();
+        lab2.execute();
 
 
     }
