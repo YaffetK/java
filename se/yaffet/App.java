@@ -10,7 +10,12 @@ public final class App {
     
     public static void main(String[] args) {
 
-       var lab1=new 
+        var B6=new B6();
+       B6.vokal();
+
+       
+
+       
 
 
     }
