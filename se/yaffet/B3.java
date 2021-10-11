@@ -33,11 +33,7 @@ public class B3 {
             System.out.println("Ogiltigt nummer,mata in ett nytt nummer");
 
         }
-        
-
-
-
-
+        System.out.println("Dagen du valde är" + veckonummer);
     }
     
 }
