@@ -15,14 +15,6 @@ public class E1 {
         System.out.printf("Största:%d Minsta:%d", largest,
                  smallest);
 
-    
-     
-
-     
-
-
-     
-
     }
     
 }
