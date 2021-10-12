@@ -5,9 +5,12 @@ import java.util.Scanner;
 public class D3 {
     public void mailadress(){
         Scanner input=new Scanner(System.in);
+
         System.out.println("Mata in en mail adress:");
         String mail=input.nextLine();
+
         int position=mail.indexOf('@');
+        
         if(position==-1){
             System.out.println("Det finns inget '@' i mailet");       
         }

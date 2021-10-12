@@ -10,8 +10,10 @@ public final class App {
     
     public static void main(String[] args) {
 
-        var B6=new B6();
-       B6.vokal();
+        var B8=new B8();
+        B8.calculator();
+
+        
 
        
 
