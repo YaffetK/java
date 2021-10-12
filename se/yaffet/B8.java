@@ -35,18 +35,21 @@ public class B8 {
             canBuyBear=false;
         }
 
-        else if(loc=='k'|| loc=='K' && age>=18){ /*om promillehalten är mindre än 1.0, och du valt krogen och är över 18 så kan
-         du köpa öl */  
+        else if(loc=='k'|| loc=='K' && age>=18){ /*om promillehalten är mindre än 1.0, och du valt krogen
+             och är över 18 så kan du köpa öl */  
             canBuyBear=true;
         
-            if(loc=='s'|| loc=='S' && age>=20)  /*om promillehalten är mindre än 1.0, och du valt systemet och är över 20 så kan
-            du köpa öl */  
+            if(loc=='s'|| loc=='S' && age>=20)  /*om promillehalten är mindre än 1.0, och du valt systemet
+            och är över 20 så kan  du köpa öl */
+             
             canBuyBear=true;
         
 
-            else if(loc!='s' || loc!='S'|| loc!='k'|| loc!='K')
+            else if (loc!='s' || loc!='S'|| loc!='k'|| loc!='K')/*ifall det inmatade ordet är allt annat än "K,k,S,s"
+            så blir utskriftet ogiltigt, men koden funkar inte*/
             canBuyBear=false;
             System.out.println("Ogiltigt, försök igen");
+        
         }
         
         else {
