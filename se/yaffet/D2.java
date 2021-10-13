@@ -3,7 +3,7 @@ package se.yaffet;
 public class D2 {
     public void stjärnor(){
 
-        String randomOrd="Detta är en sträng som du skall ändra på";
+        String randomOrd=("Detta är en sträng som du skall ändra på");
 
         randomOrd.replace(' ', '*');
 
