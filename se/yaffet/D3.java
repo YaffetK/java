@@ -15,6 +15,7 @@ public class D3 {
             System.out.println("Det finns inget '@' i mailet");       
         }
         int dot=mail.lastIndexOf('.');
+        
         int charsAfterDot=(mail.length())-mail.lastIndexOf('.')-1;
         if(charsAfterDot==2 || charsAfterDot==3){
            Boolean validEmail=true;
