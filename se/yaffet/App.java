@@ -1,5 +1,7 @@
 package se.yaffet;
 
+import java.util.Scanner;
+
 /**
  * Hello world!
  */
@@ -9,6 +11,9 @@ public final class App {
 
     
     public static void main(String[] args) {
+
+        var E6=new E6();
+        E6.run();
 
         var D2=new D2();
         D2.stjärnor();
@@ -21,6 +26,8 @@ public final class App {
 
         var B8=new B8();//kolla upp den för den funkar inte
         B8.calculator();
+
+        
 
 
     }
