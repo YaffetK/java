@@ -6,21 +6,24 @@ import java.util.Arrays;
 public class E2 {
     public void lista(){
 
-         ArrayList<Integer> tal1 = new ArrayList<>();
-         tal1.add(12);
-         tal1.add(55);
-         tal1.add(32);
-         tal1.add(9);
-         tal1.add(34);
+        ArrayList<Integer>nummerLista=new ArrayList<>(Arrays.asList(12,55,32,9,34));/*metod för att lägga in värden
+        utan att använda nummerLista.add funktionen*/
 
-         ArrayList<Integer> tal2 = new ArrayList<>(Arrays.asList( 12,55,32,9,34));
+        ArrayList<Integer>andraNummerlistan=new ArrayList<>(Arrays.asList(72 ,55, 32, 4, 88));
 
-         ArrayList<Integer>commonArrayList=new ArrayList<>();
-         
+        ArrayList<Integer>commonArrayList=new ArrayList<>();
 
+        for(int a:nummerLista){
+            if(andraNummerlistan.contains(a))
+                commonArrayList.add(a);
+        }
 
-    
-         
+        for(int tal:commonArrayList) {
+            System.out.println(tal);
+        }
+
     }
+             
+    
     
 }

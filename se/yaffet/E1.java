@@ -2,19 +2,26 @@ package se.yaffet;
 
 public class E1 {
     public void nummerlista(){
-     int[]lista={12,55,32,9,34};
-     int largest = lista[0];
-        int smallest = lista[0];
+        int[] nummerLista={34 ,32, 55, 9, 12};
+        int smallest=nummerLista[0];//ger första värdet i listan ett värde så att vi kan jämföra med alla tal i lista
+        int largest=nummerLista[0];//ger första värdet i listan ett värde så att vi kan jämföra med alla tal i lista
 
-        for(int tal : lista){
-            if(tal < smallest)
-                smallest  = tal;
-            if(tal > largest)
-                largest = tal;
+        for(int a:nummerLista) {
+            if (a < smallest)
+                smallest = a;/*int a går igenom hela listan och när den hittar det minsta talet lagras det värdet
+               i smallest */
+            if (a > largest)
+                largest = a;/*int a går igenom hela listan och när den hittar det minsta talet lagras det värdet
+               i smallest */
         }
         System.out.printf("Största:%d Minsta:%d", largest,
-                 smallest);
+                smallest);
 
+     }
+
+
+
+     
     }
     
 }
