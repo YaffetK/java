@@ -11,6 +11,8 @@ public final class App {
 
     
     public static void main(String[] args) {
+        var E7=new E7();
+        E7.run();
 
         var E6=new E6();
         E6.run();
