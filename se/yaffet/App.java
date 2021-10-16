@@ -11,23 +11,14 @@ public final class App {
 
     
     public static void main(String[] args) {
-        var E7=new E7();
-        E7.run();
 
-        var E6=new E6();
-        E6.run();
+        var D6=new D6();
+        D6.run();
 
-        var D2=new D2();
-        D2.stjärnor();
+        var D5=new D5();
+        D5.ordlek();
 
-        var C6=new C6();
-        C6.tärningar();
-
-        var C4=new C4();
-        C4.algoritm();
-
-        var B8=new B8();//kolla upp den för den funkar inte
-        B8.calculator();
+       
 
         
 

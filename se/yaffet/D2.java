@@ -5,7 +5,7 @@ public class D2 {
 
         String randomOrd=("Detta är en sträng som du skall ändra på");
 
-        randomOrd.replace(' ', '*');
+        randomOrd=randomOrd.replace(' ', '*');
 
         int antalStjärnor=0;
 

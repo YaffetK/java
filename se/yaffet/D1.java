@@ -11,8 +11,6 @@ public class D1 {
         System.out.println("Skriv in ditt namn:");
         String name=input.nextLine();
 
-        System.out.println(name.length());
-
         System.out.println("Ditt namn har "+ name.length()+" tecken");
 
         int antalInMatadeNamn=0;
