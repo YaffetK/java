@@ -11,6 +11,17 @@ public final class App {
 
     
     public static void main(String[] args) {
+        var F5=new F5();// Låt Stefan gå igenom koden
+        F5.run();
+        
+        var F4=new F4();
+        F4.run();
+        
+        var F3=new F3();//fattar ingenting kolla med Stefan
+        F3.run();
+
+        var F2=new F2();
+        F2.run();
 
         var D6=new D6();
         D6.run();

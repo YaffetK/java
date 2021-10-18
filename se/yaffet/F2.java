@@ -7,24 +7,24 @@ public class F2 {
 
         System.out.println("hur gammal är du?");
         String a=System.console().readLine();
-        int age=Integer.parseInt(a);
+        var age=Integer.parseInt(a);
        
-        System.out.println("Ska du till (k)rogen eller (S)ystemet?");
-        char location= System.console().readLine().charAt(0);
+        System.out.println("Ska du till (K)rogen eller (S)ystemet?");
+        var location= System.console().readLine().charAt(0);
 
         boolean myndig=canBuyBear(age, location);
 
 
-        System.out.println("Du är myndig:" + myndig);
+        System.out.println("Du är tillåten att köpa alkohol:" + myndig);
     
     }
 
     public boolean canBuyBear(int age,char location){
 
-        if(age>=18 && location=='k')
+        if(age>=18 && location=='K')
          return true;
 
-         if(age>=20 && location=='s')
+         if(age>=20 && location=='S')
            return true;
 
            else

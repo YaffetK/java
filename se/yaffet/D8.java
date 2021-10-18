@@ -8,7 +8,7 @@ public class D8 {
             System.out.println("Vilken fantastisk spelare nummer 10 var!");
         }
         else{
-            System.out.println("Aldrog hört talas om den spelaren");
+            System.out.println("Aldrig hört talas om den spelaren");
         }
     }
     
