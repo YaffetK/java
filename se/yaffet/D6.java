@@ -15,7 +15,7 @@ public class D6 {
         String result=ch1+"."+ch2;
 
 
-        System.out.printf("Första initialen är %C och andra initalien är %C resultatet blir %s", ch1,ch2,result);
+        System.out.printf("Resultatet blir %s",result);
         
 
         

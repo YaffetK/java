@@ -1,17 +1,14 @@
 package se.yaffet;
 
-import java.util.Scanner;
-
-
 public class B5 {
     public void execute(){
-        Scanner scanner=new Scanner(System.in);
+        
         System.out.println("Mata in ett tal:");//frågar användaren efter ett flyttal
-        float input=scanner.nextFloat();
+        float input=Float.parseFloat(System.console().readLine());
         if(input==0){
             System.out.println("Zero");
         }
-        else if(input>0){//om det inmatade talet är större än 0 går vi in i for loopen
+        else if(input>0){
             if(input>1000000)
             System.out.println("Large Positve");// skriver ut "Large Postive" om talet är större än 1000000
             else if(input<10)

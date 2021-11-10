@@ -1,6 +1,7 @@
 package se.yaffet;
 
-public class F4 {
+   public class F4 {
+       
     public void run(){
         System.out.println("mata in ett tal:");
         int tal=Integer.parseInt(System.console().readLine());
