@@ -11,37 +11,36 @@ public final class App {
 
     
     public static void main(String[] args) {
-        var F8=new F8();
-        F8.run();
-        
-        var F7=new F7();
-        F7.run();
-        
-        var F6=new F6();
-        F6.run();
+        String nyaTexten = " ";
+        while (true){
+            System.out.println("Skriv in en text");
+            String texten = System.console().readLine();
+            int numberOfLetters = texten.length();
 
-        var F5=new F5();// Låt Stefan gå igenom koden
-        F5.run();
-        
-        var F4=new F4();
-        F4.run();
-        
-        var F3=new F3();//fattar ingenting kolla med Stefan
-        F3.run();
+            if (numberOfLetters > 1 && numberOfLetters < 20)
+            nyaTexten = texten;
+            break;
 
-        var F2=new F2();
-        F2.run();
+        }
 
-        var D6=new D6();
-        D6.run();
+        int nyaTries = 0;
+        while (true){
+            System.out.println("Mata in antal gånger");
+            int tries = Integer.parseInt(System.console().readLine());
 
-        var D5=new D5();
-        D5.ordlek();
+            if (tries > 1 && tries < 20)
+            nyaTries = tries;
+            break;
+        }
 
-       
+        for (int i =0; i < nyaTries; i++){
+            System.out.println(nyaTexten);
+        }
 
-        
+    }
+
+
 
 
     }
-}
+
